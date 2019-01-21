@@ -1,0 +1,146 @@
+/* ******************************************************
+GENERAL
+********************************************************* */
+#titulo{
+	width: 50%;
+	padding-top: 50px;
+	margin-left: 5%;
+	color: white;
+}
+
+.wrap{
+	width: 90%;
+	padding: 50px 0px;
+	margin: auto;
+}
+
+.seccion{
+		padding: 10px;
+	}
+
+/* h1 {
+	color: white;  }
+/*
+.container-hover  :hover {
+	background-color: #999999;
+	margin-bottom: 2rem;
+    border-radius: 3px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.25rem;
+    transition: all .25s ease-in-out;
+}
+
+/* ******************************************************** 
+NAV
+*********************************************************** */
+
+
+
+/* ********************************************************** 
+HERO
+************************************************************* */
+.hero{
+	background-color: black;
+	height:400px;
+	background: url(../img/as8_2.jpg) bottom center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ********************************************************** 
+MAIN SECTION
+************************************************************* */
+.seccion{
+	
+	
+}
+
+/* ********************************************************** 
+FOOTER
+************************************************************* */
+footer{
+	background-color:#222;
+	padding: 0px 0px;
+	
+}
+
+/* ********************************************************** 
+RESPONSIVE
+************************************************************* */
+
+
+@media screen and (min-width: 25em) {
+/*	.seccion{
+		padding: 20px;
+	} */
+	#titulo{
+		width: 68%;
+		padding-top: 40px;	} }
+
+@media screen and (min-width: 33em) {
+	/* seccion es para los enlaces a los menus secundarios*/
+/*	.seccion{
+		padding: 40px;
+	}*/
+	#titulo{
+		padding-top: 20px;	
+		font-size: 2rem; } }
+/* con 40em pasa de una columna a 2 columas el grid*/
+@media screen and (min-width: 40em) {
+	.seccion{
+		padding: 10px;
+	}
+	#linkSeccion {
+		font-size: 1.5rem;	} }
+		
+@media screen and (min-width: 50em) {
+  #titulo{
+	font-size: 2.5rem; } 
+	#linkSeccion {
+		font-size: 1.2rem;	}
+		}
+
+@media screen and (min-width: 55em) {	
+.hero{
+	height:500px;
+}
+   }
+	
+/* con 64em pasa de 2 columnas a 4 columas el grid*/
+@media screen and (min-width: 64em) {	
+#linkSeccion {
+		font-size: 1.5rem;	}
+   }
+
+@media screen and (min-width: 67em) {	
+  .hero{
+	background: url(../img/as8_1.jpg) bottom center;
+    background-size: cover;
+	background-position: center; }
+  #titulo{
+	font-size: 3rem; } }
+
+/* 
+.marketing-hero.home-large-hero {
+    background: url(../img/as8_1.jpg) bottom center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 250px;
+}
+
+.homepage{
+	color:#888;
+}
+
+@media screen and (max-width: 40em) {
+	.marketing-hero.home-large-hero {
+		background: url(../img/as8_2.jpg) bottom center;
+		background-size: cover;
+	}
+	
+}
+
